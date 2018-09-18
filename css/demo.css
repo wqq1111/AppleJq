@@ -208,7 +208,7 @@ i{
 	height: 592px;
 	border-bottom: 12px solid #fff;
 	float: left;
-	background: red;
+	/*background: red;*/
 	position: relative;
 	overflow: hidden;
 	font-family: ;
@@ -991,20 +991,20 @@ footer p{
 footer p a{
 	color: #999;
 }
-.footer2{
+.footer-sm{
 	display: none;
 }
 /* 底部结束 */
 
 
 /* 小小屏底部开始 */
-.footer2{
+.footer-sm{
 	width: 100%;
 	/* height: 100px; */
 	background: #F2F2F2;
 	padding: 0 10px;
 }
-.footer2 .content ul li{
+.footer-sm .content ul li{
 	width: 100%;
 	border-bottom: 1px solid #d6d6d6;
 	/* padding: 10px 16px; */
@@ -1015,50 +1015,50 @@ footer p a{
 	color: #333;
 	padding: 0;
 }
-.footer2 .content ul li .content-one{
+.footer-sm .content ul li .content-one{
 	width: 100%;
 	padding: 10px 16px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.footer2 .content ul li .content-one p{
-	font-size: 18px;
+.footer-sm .content ul li .content-one p{
+	font-size: 14px;
 	line-height: 12px;
 	padding: 10px 16px;
 }
 .hot{
 	transform: rotate(45deg);
 }
-.footer2 .content ul li .content-two{
+.footer-sm .content ul li .content-two{
 	padding: 6px 30px;
 	width: 100%;
-	font-size: 11px;
+	font-size: 10px;
 	font-weight: 400;
 	color: #999;
 }
-.footer2 .content ul li .content-down{
+.footer-sm .content ul li .content-down{
 	display: none;
 
 }
-.footer2 .more{
+.footer-sm .more{
 	width: 100%;
 	padding: 17px 16px 0;
 	font-size: 11px;
 	font-weight: 400;
 	color: #333;
 }
-.footer2 .more .method{
+.footer-sm .more .method{
 	font-size: 11px;
 	color: #888;
 	padding-bottom: 8px;
 	margin-bottom: 7px;
 }
-.footer2 .more .method a{
+.footer-sm .more .method a{
 	color: #0070c9;
 }
 
-.footer2 .copyright{
+.footer-sm .copyright{
 	margin: 0 auto;
 	max-width: 980px;
 	padding: 5px 16px 0;
@@ -1066,32 +1066,32 @@ footer p a{
 	font-weight: 400;
 	color: #888;
 }
-.footer2 .copyright .left{
+.footer-sm .copyright .left{
 	margin: 0 30px 0 0;
 	margin-top: 15px;
 }
-.footer2 .copyright .center{
+.footer-sm .copyright .center{
 	margin-top: 5px;
 	color: #d6d6d6;
 }
-.footer2 .copyright .center a{
+.footer-sm.copyright .center a{
 	color: #555;
 	padding: 0 10px;
 	
 }
-.footer2 .copyright .center a:nth-child(1){
+.footer-sm .copyright .center a:nth-child(1){
 	padding-left: 0;
 }
-.footer2 .copyright .china{
+.footer-sm .copyright .china{
 	display: flex;
 }
-.footer2 .copyright .china a{
+.footer-sm .copyright .china a{
 	display: block;
 	line-height: 16px;
 	color: #555;
 
 }
-.footer2 p.bottom{
+.footer-sm p.bottom{
 	margin: 0 auto;
 	max-width: 980px;
 	padding: 5px 16px 20px;
@@ -1099,7 +1099,7 @@ footer p a{
 	font-weight: 400;
 	color: #999;
 }
-.footer2 p.bottom a{
+.footer-sm p.bottom a{
 	color: #999;
 }
 /* 小小屏底部结束 */
@@ -1240,7 +1240,7 @@ footer p a{
 	footer{
 		display: none;
 	}
-	.footer2{
+	.footer-sm{
 		display: block;
 	}
 	/* 底部结束 */

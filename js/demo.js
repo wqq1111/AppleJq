@@ -17,7 +17,7 @@ $(function(){
 	//小屏底部
 	let add=$(".add");
 	let down=$(".content-down");
-	let both=$(".footer2 ul li");
+	let both=$(".footer-sm ul li");
 	both.click(function(){
 		let i=$(this).index();
 		down.eq(i).slideToggle("slow");
