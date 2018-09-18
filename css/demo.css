@@ -1179,6 +1179,9 @@ footer p a{
 	.head a i{
 		font-size: 17px;
 	}
+	.too{
+		color:#000;
+	}
 	.head a.list{
 		display: flex;
 

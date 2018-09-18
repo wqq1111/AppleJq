@@ -5,11 +5,13 @@ $(function(){
 	let more=$(".head-more");
 	let line1=$(".line1");
 	let line2=$(".line2");
+	let icons=$(".icon-s");
 
 	btn.click(function(){
 		more.slideToggle("slow");
 		line1.toggleClass("active");
 		line2.toggleClass("active1");
+		icons.toggleClass("too");
 	})
 
 	//小屏底部
